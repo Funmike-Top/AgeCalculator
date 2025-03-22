@@ -1,0 +1,23 @@
+body {
+  background-color: #ff9aa2;
+}
+
+.wrapper,
+.result-view {
+  width: 32rem;
+  max-width: 90%;
+  background-color: #c7ceea;
+}
+
+.result-view {
+  background-color: transparent;
+}
+
+.result-view .card {
+  background-color: #c7ceea;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
